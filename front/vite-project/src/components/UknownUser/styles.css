@@ -1,0 +1,49 @@
+.notification-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    zoom: 1.5;
+  }
+  
+  /* Estilo del cuadro de notificación */
+  .notification-box {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Estilo del texto */
+  .notification-message {
+    font-family: 'Cal Sans', sans-serif;
+    color: #40798C;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo del botón */
+  .notification-button {
+    font-family: 'Cal Sans', sans-serif;
+    width: 100%;
+    color: white;
+    background-color: #285961; /* Tonalidad más oscura */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notification-button:hover {
+    background-color: #1f4649; /* Tonalidad aún más oscura al pasar el cursor */
+  }

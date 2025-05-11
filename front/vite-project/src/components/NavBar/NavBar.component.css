@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #0B2027;
+  
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fbfbfb;
+  font-family: 'Bahnschrift Light', serif;
+
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px;
+  /* Ajusta el tamaño del logo según sea necesario */
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #CFD7C7;
+  font-family: 'Copperplate Gothic Light', sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-family: 'Bahnschrift Light', serif;
+  color: #ffff;
+  position: relative;
+  transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #70A9A1;
+  /* Color de la línea subrayada */
+  transition: width 0.3s ease;
+  /* Transición suave para la línea subrayada */
+}
+
+.nav-links a:hover {
+  color: #3f6964;
+  /* Color de las letras al hacer hover */
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+  /* Expande la línea subrayada al 100% en hover */
+}
+
+
+
+.session-links button {
+  cursor: pointer;
+  font-family: 'Bahnschrift Light', serif;
+  
+
+ }
+
+ .session-link:hover { 
+  cursor: pointer;
+   
+   color: #0B2027; 
+    
+ } 

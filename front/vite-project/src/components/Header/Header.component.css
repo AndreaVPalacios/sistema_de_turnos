@@ -1,0 +1,58 @@
+.overlay-content {
+    text-align: center;
+    padding: 10rem 1rem;
+    margin-top: 6vh;
+    
+  }
+  
+  .overlay-content h1 {
+    font-size: 3.5rem;
+    
+    font-family: 'Copperplate Gothic Light', sans-serif;
+    text-align: center;
+    color: #F6F1D1;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+  }
+  
+  .overlay-content p {
+    font-size: 2rem;
+    color: #0e0d0d;
+    font-family: 'Cal Sans',serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(255, 251, 251, 0.9);
+  }
+  
+  .cta-button {
+    padding: 0.75rem 2rem;
+    border: none;
+    background-color: #40798C;
+    color: #fff;
+    font-size: 0.9rem;
+    
+    border-radius: 5px;
+    font-family: 'Sitka Display', sans-serif;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .carousel-background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: background-image 1s ease-in-out; /* Transición suave entre imágenes */
+  }
+  
+  .overlay-content {
+  
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  

@@ -1,0 +1,15 @@
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #fff;
+    font-family: 'Bahnschrift Light',serif;
+    text-align: center;
+    margin-top: 75vh;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+    
+  }

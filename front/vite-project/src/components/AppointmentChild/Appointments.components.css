@@ -1,0 +1,85 @@
+
+.user-table {
+  font-family: 'Bahnschrift SemiLight Condensed', serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table {
+  width: 100%; /* Hace que la tabla ocupe todo el ancho disponible */
+  margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+.user-table thead {
+  background-color: #333;
+  width: 100%;
+  font-family: Cal Sans;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+  
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+p {
+  font-size: 20px;
+  color: #5a3e36; /* Marrón oscuro */
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.status{
+  color: #ddd;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 13%;
+}
+
+.active{
+  background-color: #418843;
+}
+
+.cancel{
+  background-color: #692222;
+}
+
+button{
+  font-family: 'Bebas Neue', sans-serif;
+  color: #ddd;
+  background-color: #0B2027;
+  
+  margin-right: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 10%;
+  transition: color 0.3s ease;
+}
+
+button:hover{
+  background-color: #4d1212;
+  cursor: pointer;
+}
+
+.textCancelled{
+  padding-right: 5%;
+  color: #4d1212;
+  font-size: 19px;
+  font-family: 'Bebas Neue', sans-serif;
+}

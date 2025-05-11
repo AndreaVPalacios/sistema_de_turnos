@@ -1,0 +1,41 @@
+body{
+  background-color: #cfd7c7;
+}
+
+.about-container {
+    
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .about-content {
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra suave */
+    max-width: 600px;
+    
+    margin-bottom: 98px;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #40798C; 
+    margin-bottom: 1rem;
+    font-family: 'Cal Sans', sans-serif;
+  }
+  
+  .about-paragraph {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+  }
+  
